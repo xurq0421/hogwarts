@@ -4,12 +4,17 @@
 # @Author : xurq
 # @Site : 
 # @File : testpython.py
+
+
 # @Software: PyCharm
 class demo:
     def test_login(self):
         print('test login!')
 
 
+
+def test_add(a,b):
+    assert 2 == a+b
 
 
 
